@@ -52,7 +52,7 @@ a,
   font-weight: 800;
   text-decoration: underline;
   text-decoration-color: red;
-  text-indent: none;
+  text-indent: 0;
 }
 .result {
   font-size: 16px;
