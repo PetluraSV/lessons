@@ -1,0 +1,147 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Tektur:regular,500,600,700,800,900&display=swap");
+@import url("reset.css");
+
+.wrapper {
+  color: #2b2929;
+  font-family: "Tektur", serif;
+  text-align: center;
+  text-indent: 10px;
+  width: 1400px;
+  margin: 0 auto;
+}
+.title,
+.subtitle {
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 120%; /* 48/40 */
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: green;
+  text-decoration: line-through;
+  text-decoration-color: rgb(6, 6, 107);
+}
+.title {
+  text-decoration-color: red;
+  text-shadow: 12px 2px 5px #da2020, 5px 2px 12px #3c20da;
+  margin: 0, auto;
+  height: 460px;
+
+  background-color: aqua;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 187.5%; /* 30/16 */
+  overflow: scroll;
+  height: 200px;
+}
+.description {
+  text-align: left;
+  text-decoration: overline;
+}
+.instruction {
+  text-align: right;
+  text-decoration: underline;
+  color: chocolate;
+}
+a,
+.links {
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "Proxima Nova Lt", sans-serif;
+  line-height: 250%; /* 50/20 */
+  color: #3c20da;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 800;
+  text-decoration-color: red;
+  text-indent: 0;
+  display: inline-block;
+  /* margin: 0, auto; */
+}
+.contacts {
+  background-color: bisque;
+}
+.result {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  color: chartreuse;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-family: "Proxima Nova Rg", sans-serif;
+}
+.subtitle-two {
+  font-size: 100px;
+  text-shadow: 12px 0px 10px #da2020, 2px 10px 2px #37771a;
+  font-weight: 600;
+  line-height: 100px;
+  text-decoration: none;
+  color: grey;
+}
+
+.title-three {
+  margin: 84px;
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 120%; /* 48/40 */
+  text-decoration: underline;
+}
+body {
+  background: peachpuff;
+}
+h4 {
+  font-size: 26px;
+}
+.portfolios {
+  font-size: 0px;
+}
+.portfolio {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+  padding: 30px;
+  font-size: 14px;
+}
+.title-four {
+  display: block;
+}
+
+.mark-title {
+  height: 572px;
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.mark-title {
+  width: 170px;
+  height: 170px;
+}
+.portfolio {
+  height: 490px;
+  width: 300px;
+}
+.photos {
+  padding-right: 20px;
+}
+.things {
+  display: block;
+}
+.title-text {
+  padding-bottom: 30px;
+}
+.footer-products {
+  padding: 80px;
+}
