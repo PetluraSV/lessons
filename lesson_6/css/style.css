@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tektur:regular,500,600,700,800,900&display=swap");
+@import url("reset.css");
+
+body {
+  background-color: blue;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #d9d9d9;
+  font-family: "Tektur", serif;
+}
+
+.title-text {
+  text-align: center;
+  color: #2b2929;
+  font-size: 30px;
+  min-height: 48px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title {
+  text-align: center;
+}
+.title-photo {
+  border-radius: 5px;
+}
+
+.header {
+  color: #2b2929;
+  font-size: 16px;
+
+  margin-top: 48px;
+  font-weight: 800;
+}
+.header__one {
+  margin-bottom: 24px;
+}
+.text__main {
+  margin-top: 48px;
+}
+.header__title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.list-item {
+  margin-bottom: 20px;
+  background-image: url(../img/mark.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.text__six {
+  margin-bottom: 48px;
+}
+
+footer {
+  font-family: "Open+Sans", serif;
+}
+.portfolio {
+  background-color: rgb(243, 244, 244);
+  padding-left: 50px;
+  padding-bottom: 30px;
+  background-image: url(../img/women.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 90%;
+  background-size: 300px;
+}
+.portfolio-title {
+  font-size: 55px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 70px;
+  padding-top: 40px;
+}
+.title__text {
+  text-align: left;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 70px;
+  padding-right: 50%;
+  height: 200px;
+  background-image: url(../img/flower-pattern.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-clothes {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 29px;
+  height: 72px;
+  width: 220px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: #1e2832;
+  color: white;
+  background-image: url(../img/bag.png);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 8%;
+  display: block;
+}
+.portfolio-two {
+  background-color: rgb(148, 68, 245);
+  color: white;
+  font-size: 40px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 40px;
+  background-image: url(../img/girl.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 90%;
+  background-size: 300px;
+}
+
+.portfolio-title-two {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 70px;
+  padding-top: 40px;
+  padding-right: 50%;
+}
+
+.buttom {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  height: 50px;
+  width: 220px;
+  padding-top: 13px;
+  background-color: white;
+  color: black;
+  box-shadow: 12px 12px 2px 1px rgba(2, 2, 12, 0.2);
+}
+.title__text-two {
+  font-size: 20px;
+  margin-bottom: 24px;
+  padding-right: 50%;
+}
